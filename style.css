@@ -1,0 +1,23 @@
+#receipt {
+  font-family:monospace;
+  width:500px;
+  border-style:solid;
+  border-color: aliceblue;
+  border-width:5px;
+}
+body{
+  text-align: center;
+
+}
+p{
+  text-align: left;
+}
+h2{
+  text-align: left;
+  color: darkblue
+}
+h1{
+  color: darkblue;
+  font-family: Georgia;
+  text-decoration: underline;
+}

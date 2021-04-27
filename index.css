@@ -1,0 +1,20 @@
+body{
+
+  color: black;
+  text-align: center;
+  background-color: mistyrose
+}
+
+
+a {
+
+    color: black;
+  text-decoration: underline;
+  font-size: 22px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+a:hover{
+    color: mistyrose;
+    background-color: darkgrey
+}

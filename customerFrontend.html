@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="style.css" rel="stylesheet">
+      <script type = "javascript" src = "formChecker.js">
+      </script>
+      </head>
+    <body>
+      <h1> Snuggle Food! </h1>
+        <form name="order" action="customerBackend.php" onsubmit ="return validates()" method="post">
+        <h2>LOG IN</h2>
+        <p> Username: <input type="text" name="user" id="user" value="">
+            Password: <input type="text" name="password" id="password" value="" >
+          </p>
+        <h2>Choose your favorite food to snuggle:</h2><br><br>
+        <img src = "Assets/avacado.jpg" width= "300px" /> <br><br>
+        Snuggle Avacado: $24.99 <br>
+        Quantity: <input type="text" name="avacado" id="a" value="0" ><br><br>
+        <img src = "Assets/bread.jpg" width = "300px" /> <br><br>
+        Snuggle Bread: $22.99 <br>
+        Quantity: <input type="text" name="bread" id="b" value="0" ><br><br>
+        <img src = "Assets/cocoa.jpg" width = "300px" /> <br><br>
+        Snuggle Hot Cocoa: $23.99 <br>
+        Quantity: <input type="text" name="cocoa" id="c" value="0" ><br><br>
+        <h2>Choose your shipping option: </h2>
+        <p>
+        <input type="radio" name="shipping" value="0">Free 7 day<br><br>
+        <input type="radio" name="shipping" value="5">$50.00 over night<br><br>
+        <input type="radio" name="shipping" value="50">$5.00 three day<br><br>
+      </p>
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+    </form>
+  </body>
+</html>
